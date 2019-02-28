@@ -1,0 +1,194 @@
+$myfont: Montserrat, Helvetica, Arial, Lucida, sans-serif;
+.lokuamethod{
+    height: 30vh;
+    width: 100vw;
+    padding: 20px;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#002747;
+    color: white;
+    font-family: Capriola, Arial, Helvetica, sans-serif;
+    font-size:55px;
+    font-weight: 500;
+    
+}
+
+.aimstofoster{
+    font-family:$myfont;
+    font-size: 20px;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+.fourcs{
+    display: flex;
+    justify-content: center;
+    padding: 0.7%;
+    font-size:20px ;
+    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
+    color:#002338;
+}
+.methodlogo{
+    margin-top: 4vh;
+}
+
+
+.methodimage{
+    height:70vh;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin-left: 20vw;
+}
+.secondpart{
+    position: relative;
+}
+.wordsbypic{
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+
+}
+.we{
+    margin-top: 7vh;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 40vw;
+    font-size: 3vh;
+    color: #666666;
+
+}
+.well{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 40vw;
+    font-size: 3.5vh;
+    color:black;
+}
+.wel{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 40vw;
+    font-size: 3vh;
+    color:#666666;
+}
+.firstlist{
+    margin-top: 13vh;
+    margin-left: 55vw;
+    height: 30vh;
+    width: 30vw;
+    list-style-type: dot;
+    text-align: left;
+    font-size: 3.5vh;
+    position: relative;
+    color: #666666
+}
+.mylist{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    list-style-type: disc;
+}
+
+.borderedbox{
+    margin-top: 6vh;
+    width: 70vw;
+    border-style: solid;
+    margin-left: 15vw;
+    height: 15vh;
+    font-size: 125%;
+    border-width: .7vh;
+    color:#666666
+}
+.lineofsubgroups{
+   margin-top:10vh;
+    display:flex;
+    font-size:5vh;
+    
+}
+.bycategory{
+margin-left: 27.5vw;
+
+
+}
+.bylevel{
+margin-left: 18vw
+
+
+
+}
+.bothboxes{
+    display:flex;
+}
+.boxofgeona{
+    border-width: 3vh;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 5px 2.5px #CFCFCF;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 20vw;
+    background-color: #002747;
+    color: white;
+    font-size: 3vh;;
+    .geona{
+        display:flex;
+        text-align: center;
+        justify-content:center;
+        margin-top: 3vh;
+    }
+}
+
+.boxoflevel{
+    border-width: 3vh;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 5px 2.5px #CFCFCF;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 4vw;
+    background-color: #002747;
+    color: white;
+    font-size: 4vh;
+    
+    .level{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+}
+.wordsundertwobox{
+    width: 80vw;
+    margin-left: 10vw;
+    height: 20vh;
+    margin-top:20vh;
+    color: #666666;
+    font-size: 3vh;
+}
+.model{
+    height: 4%;
+    width: 8%;
+    padding: 0% 6%
+}
+.ready{
+    font-size:7vh
+}
+
+.signup{
+    background-color:#FFD36E;
+    height: 7vh;
+    width: 13vw;
+    margin-bottom: 10vh;
+    border-radius: 40px;
+    font-size: 22px;
+    font-family: $myfont;
+    color: #030201;
+}

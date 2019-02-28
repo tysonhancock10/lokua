@@ -1,0 +1,251 @@
+$myfont: Helvetica, Arial, Lucida, sans-serif;
+$myfont2: Capriola, Helvetica, Arial, Lucida, sans-serif;
+
+
+.logo{
+    height: 100px;
+    width: 150px;
+    padding: 20px;
+}
+.bluebar{
+    height: 55vh;
+    width: 90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    background-color:#002747;
+    color: white;
+    
+}
+.title{
+    padding-top: 10vh;
+    font-size: 20px;
+    font-family:Capriola, Helvetica, Arial, Lucida, sans-serif;
+}
+.thew{
+    
+    font-size: 20px;
+    display: inline;
+    padding: 20px; 
+    font-family: $myfont;
+}
+.wonde{
+    font-size: 20px;
+    font-family: Montserrat - 700;
+    font-weight: bold;
+    padding: 20px;
+}
+.place{
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: $myfont;
+    
+}
+.but{
+    font-size: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: $myfont;
+}
+.lotsofproblems{
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: $myfont;
+}
+
+.twopic{
+    font-family: $myfont;
+}
+
+.onepic{
+    height: 50vh;
+        .firstpic{
+            height: 45vh;
+            width: 45vw;
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 10vw;
+            position: absolute;
+            margin-top: 5vh;
+        }
+    .wordiv{
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20vw;
+    
+    }
+    .pone{
+        width: 50vw;
+        position: absolute;
+        display:flex;
+        justify-content: center;
+        margin-right: 20vw;
+        font-size: 25px;
+        padding-top: 5vh;
+        
+        
+    }
+    .strongone{
+        word-wrap: break;
+        width: 20vw;
+        display:flex;
+        justify-content: center;
+        font-family: Helvetica, Arial, Lucida, sans-serif;
+        margin-right: 15vw;
+        padding-bottom: 5vh;
+        font-size: 21px;
+        padding-top: 22vh;
+    }
+
+    
+}
+
+.twopic{
+    font-family:$myfont2;
+    display: flex;
+    
+    .wordsbypic{
+        width:50vw;
+        margin-top: 15vh;
+        font-size: 35px;
+        margin-left: 5vw;
+    }
+    .secondpic{
+        position: relative;
+        width:30vw;
+        margin-top: 10vh;
+        height: 80vh;
+            
+        
+    }
+}
+
+.greybar{
+    margin-left: 13vw;
+    margin-top: 10vh;
+    width: 74vw;
+    background-color: #545454;
+    height: 10vh;
+    color: #FFFFFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.lotsofsinglewords{
+    width: 100vw;
+    font-family: $myfont;
+    .learningabout{
+        font-size:20px;
+        font-weight: 500;
+        color:#666666;
+        padding:20px;
+    }
+    .alloneword{
+        font-weight:700;
+        font-size: 20px;
+        color:#666666;
+        .culture{
+            display:flex;
+            padding: 10px;
+            justify-content: center;
+        }
+        .economics{
+            display:flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .history{
+            display:flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .science{
+            display:flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .arts{
+            display:flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .language{
+            display:flex;
+            justify-content: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .religion{
+            display:flex;
+            justify-content: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .politics{
+            display:flex;
+            justify-content: center;
+            padding: 10px;
+            font-size: 20px;
+            padding-bottom: 40px;
+        }
+
+    }
+}
+
+.yellowandbluebox{
+    margin-left: 13vw;
+    margin-top: 10vh;
+    width: 74vw;
+    height: 30vh;
+    .yellowbox{
+        height:5vh;
+        width: 74vw;
+        background-color:#FFD36E;
+    }
+    .bluebox{
+        display: flex;
+        background-color:#002747;
+        height: 20vh;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        
+    }
+
+}
+.interested{
+    font-family: Capriola, Helvetica, Arial, Lucida, sans-serif;
+    font-size:32px;
+    color:#333333;
+
+}
+.youcanlearn{
+    font-family: $myfont;
+    font-size: 19px;
+    color: #666666;
+
+}
+.herebutton{
+    background-color:#FFD36E;
+    height: 7vh;
+    width: 9vw;
+    margin-bottom: 5vh;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: $myfont;
+    color: #030201;
+
+}
+

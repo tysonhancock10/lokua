@@ -1,0 +1,77 @@
+.plan{
+    margin-top: 10vh;
+    width: 30vw;
+    height: 20vh;
+    font-size: 230%;
+
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+
+}
+
+.threeboxes{
+    height:100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    background-color:white;
+    border-color: black;
+    border-width:1%;
+    border-style: solid;
+    margin-bottom: 5%;
+}
+.boxuno{
+    width: 33%;
+    border-right-color: black;
+    border-right-width:1%;
+    border-right-style:  solid;
+    font-size:100%;
+    .thisisit{
+        height: 10vh;
+        .seven{
+            font-family: Capriola, Helvetica, Arial, Lucida, sans-serif
+        }
+        .unlimited{
+            font-family:Montserrat, Helvetica, Arial, Lucida, sans-serif;
+        }
+    }
+    .caching{
+        height:10vh;
+        font-size: 340%;
+        margin-top: 15%;
+        color:#FF8C77;
+        font-weight: bold;
+    }
+    .wordsunder{
+        
+       
+    }
+
+}
+.boxdos{
+    width:33%;
+    font-size: 100%;
+    .twentyone{
+        height:10vh;
+        font-size: 340%;
+        margin-top: 15%;
+        color:#FF8C77;
+        font-weight: bold;
+    }
+}
+.boxtres{
+    width:33%;
+    border-left-color: black;
+    border-left-width:1%;
+    border-left-style:  solid;
+    font-size: 100%;
+    .nineteen{
+        height:10vh;
+        font-size: 340%;
+        margin-top: 15%;
+        color:#FF8C77;
+        font-weight: bold;
+    }
+}

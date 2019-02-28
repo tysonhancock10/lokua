@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    
+    border-bottom: 2px;
+    border-color: black;
+    
+    @media(max-width: 800px){
+        .ptags {
+            visibility: hidden;
+        }
+        img{
+            width:100%
+        }
+    }
+    .ptags {
+        height: 11vh;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 10vw;
+        position: fixed;
+        padding-left: 50vw;
+        z-index: 2;
+        background-color: white
+        
+    }
+    a{
+        width:50%;
+        
+    }
+    img{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        height: 8vh;
+        width: 100px;
+        margin-left: 15vw;
+        z-index: 3;
+        background-color: white
+    }
+}
