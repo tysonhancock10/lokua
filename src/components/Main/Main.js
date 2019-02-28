@@ -21,7 +21,7 @@ class Main extends Component{
     register = () => {
         const {username, password} = this.state;
         console.log(this.state)
-        axios.post('http://localhost:5000/main/register', {username, password})
+        axios.post('/main/register', {username, password})
         .then(res => {
             console.log(res.data)
             this.props.updateUser(res.data);
@@ -33,7 +33,7 @@ class Main extends Component{
     }
     login = () => {
         const {username, password} = this.state;
-        axios.post('http://localhost:5000/main/login', {username, password})
+        axios.post('/main/login', {username, password})
         .then(res => {
             console.log(res.data)
 

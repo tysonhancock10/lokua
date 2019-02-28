@@ -10,7 +10,7 @@ class Mexlab extends Component{
     }
 
     getMexico(){
-        axios.get('http://localhost:5000/api/mapsmexi')
+        axios.get('/api/mapsmexi')
         .then(res => {
             this.setState({
                 maps: res.data

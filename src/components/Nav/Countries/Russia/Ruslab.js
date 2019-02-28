@@ -10,7 +10,7 @@ class Ruslab extends Component{
     }
 
     getRussia(){
-        axios.get('http://localhost:5000/api/mapsrussi')
+        axios.get('/api/mapsrussi')
         .then( res => {
             this.setState({
                 maps: res.data

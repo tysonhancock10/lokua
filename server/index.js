@@ -9,6 +9,8 @@ const sessions = require('express-session')
 const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env;
 const massive = require('massive');
 
+
+app.use( express.static( `${__dirname}/../build` ) );
 app.use(bodyParser.json())
 app.use(sessions({
     secret: SESSION_SECRET,

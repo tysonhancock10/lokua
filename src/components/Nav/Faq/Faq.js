@@ -36,7 +36,7 @@ class Faq extends Component{
         })
     }
     getQuestions(){
-        Axios.get('http://localhost:5000/api/faq')
+        Axios.get('/api/faq')
         .then( res => {
             console.log(res.data)
             
@@ -57,7 +57,7 @@ class Faq extends Component{
     addQuestions = () => {
         const {questionInput} = this.state;
         
-        Axios.post('http://localhost:5000/faq/addquestion', {questionInput})
+        Axios.post('/faq/addquestion', {questionInput})
         .then(res => {
             console.log(res)
             // this.setState({
@@ -72,7 +72,7 @@ class Faq extends Component{
     addAnswer = (id) => {
         const {answerInput} = this.state;
 
-        Axios.put(`http://localhost:5000/api/faq/${id}/edit`, {answerInput})
+        Axios.put(`/api/faq/${id}/edit`, {answerInput})
         .then(res => {
             console.log('update complete')
             console.log(res)
@@ -83,7 +83,7 @@ class Faq extends Component{
     
     deleteQuestions = (id) => {
     
-        Axios.delete(`http://localhost:5000/api/faq/${id}`)
+        Axios.delete(`/api/faq/${id}`)
         .then(res => {
             console.log('message deleted')
             console.log(res)

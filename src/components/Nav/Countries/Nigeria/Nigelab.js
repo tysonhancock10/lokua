@@ -10,7 +10,7 @@ class Nigelab extends Component{
     }
 
     getNigeria(){
-        axios.get('http://localhost:5000/api/mapsnige')
+        axios.get('/api/mapsnige')
         .then( res => {
             console.log(res.data)
             this.setState({

@@ -13,7 +13,7 @@ class Lab extends Component{
     }
 
     getMap(){
-        axios.get('http://localhost:5000/api/maps')
+        axios.get('/api/maps')
         .then( res => {
             this.setState({
                 maps: res.data
