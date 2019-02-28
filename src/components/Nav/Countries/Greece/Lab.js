@@ -33,14 +33,18 @@ class Lab extends Component{
                 <div>
 
                     <h1 className='dbname'>{map.country_name}</h1>
-                    <img src={map.map_img} alt=''></img>
-                    <img src={map.map_img2} alt=''></img>
+                    <div className='completemap'>
+                    <img className='dbmap' src={map.map_img} alt=''></img>
+                    <img className='rose' src={map.map_img2} alt=''></img>
+                    </div>
                     <p>{map.step1}</p>
-                    <p>{map.step2}</p>
-                    <p>{map.step3}</p>
-                    <p>{map.step4}</p>
-                    <p>{map.step5}</p>
-                    <p>{map.step6}</p>
+                    <img className='rose2' src={map.map_img2} alt=''></img>
+                    <p>Color it in red.</p>
+                    <p className='step2'>{map.step2}</p>
+                    <p className='step4'>{map.step3}</p>
+                    <p className='step5'>{map.step4}</p>
+                    <p className='step6'>{map.step5}</p>
+                    <p className='step7'>{map.step6}</p>
                     
 
                 </div>
@@ -50,7 +54,7 @@ class Lab extends Component{
             <div>
                 
                 {mappedmaps}
-                <Link to='/countries/greece'><button>Back to labs</button> </Link> 
+                <Link to='/countries/greece'><button className='back'>Back to labs</button> </Link> 
             </div>
         )
     }

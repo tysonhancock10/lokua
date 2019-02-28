@@ -1,4 +1,76 @@
 .dbname{
-    font-size: 400%;
+    font-size: 500%;
     color: black;
+}
+.completemap{
+    display: flex;
+    justify-content: center;
+}
+.dbmap{
+    height: 20%;
+    width: 70%;
+}
+.rose{
+    margin-left: 30%;
+    position: absolute;
+    height:7%;
+    width: 7%;
+    margin-top: 31%;
+    background-color: none;
+    animation-duration: 4s;
+    border-color:white;
+    border-width:2%;
+    border-style: solid;
+    
+}
+.rose:hover{
+    border-color: red;
+}
+        .rose:hover {
+           background-color:red;
+           
+       }
+.rose2{
+    height: 30%;
+    width: 20%;
+    text-align: left;
+}
+// @keyframes changetextcolor{
+//     from {color: orange}
+//     to {color: green}
+// }
+.step2{
+    
+    padding: 2%;
+    text-align: left;
+    animation-name: changetextcolor;
+    animation-duration: 4s;
+}
+
+.step3{
+    padding: 2%;
+    text-align: left;
+}
+.step4{
+    padding: 2%;
+    text-align: left;
+}
+.step5{
+    padding: 2%;
+    text-align: left;
+
+}
+.step6{
+    padding: 2%;
+    text-align: left;
+}
+.step7{
+    padding: 2%;
+    text-align: left;
+}
+.back{
+    margin-bottom: 5%;
+    height: 3%;
+    width: 5%;
+    background-color: orangered
 }
