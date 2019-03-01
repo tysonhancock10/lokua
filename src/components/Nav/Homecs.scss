@@ -35,15 +35,15 @@ body{
         font-size: 83px;
         font-family: $font-stack2;
         height: 100%;
-        width: 100%;
-        padding: 10px;
+        width: 100vw;
+        padding: 10px 0px;
         text-align: center;
     }
                                        
             .sndline{
                 display:flex;
                 justify-content: center;
-                align-content: center;
+                
                 font-size: 20px;
                 font-family: $font-stack;
                 color: #61695F;

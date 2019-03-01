@@ -120,10 +120,10 @@ class Faq extends Component{
         return(
             <div>
             
-            <Nav />
+            <Nav /> 
             
             
-                <h1>FAQ</h1>
+                
                 <img src='https://lokua.org/wp-content/uploads/2018/11/colorful-world-map4WEB.jpg' className='backimg'></img>
             <h1>FAQ</h1>
             <div>

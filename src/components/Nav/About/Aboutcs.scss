@@ -2,19 +2,27 @@ $myfont: Helvetica, Arial, Lucida, sans-serif;
 $myfont2: Capriola, Helvetica, Arial, Lucida, sans-serif;
 
 
+@media(max-width: 800px){
+.lotsofproblems{
+    margin-bottom: 10%;
+    font-size: 80%;
+}
+}
+
 .logo{
-    height: 100px;
-    width: 150px;
+    height: 15vh;
+    width: 20vw;
     padding: 20px;
 }
 .bluebar{
-    height: 55vh;
+    height: 70vh;
     width: 90%;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 5vh;
     background-color:#002747;
     color: white;
+    word-wrap: break-word;
     
 }
 .title{
@@ -24,35 +32,35 @@ $myfont2: Capriola, Helvetica, Arial, Lucida, sans-serif;
 }
 .thew{
     
-    font-size: 20px;
+    font-size: 2.5vh;
     display: inline;
-    padding: 20px; 
+    padding: 2vh; 
     font-family: $myfont;
 }
 .wonde{
-    font-size: 20px;
+    font-size: 4.5vh;
     font-family: Montserrat - 700;
     font-weight: bold;
-    padding: 20px;
+    padding: 3vh;
 }
 .place{
-    font-size: 20px;
-    padding: 10px;
+    font-size: 2.5vh;
+    padding: 2vh;
     display: flex;
     justify-content: center;
     font-family: $myfont;
     
 }
 .but{
-    font-size: 20px;
-    padding: 40px;
+    font-size: 2.5vh;
+    padding: 3vh;
     display: flex;
     justify-content: center;
     font-family: $myfont;
 }
 .lotsofproblems{
-    font-size: 20px;
-    padding: 20px;
+    font-size: 2.5vh;
+    padding: 5%;
     display: flex;
     justify-content: center;
     font-family: $myfont;
@@ -81,12 +89,12 @@ $myfont2: Capriola, Helvetica, Arial, Lucida, sans-serif;
     
     }
     .pone{
-        width: 50vw;
+        width: 40vw;
         position: absolute;
         display:flex;
         justify-content: center;
-        margin-right: 20vw;
-        font-size: 25px;
+        margin-right: 25vw;
+        font-size: 2.9vh;
         padding-top: 5vh;
         
         
@@ -99,7 +107,7 @@ $myfont2: Capriola, Helvetica, Arial, Lucida, sans-serif;
         font-family: Helvetica, Arial, Lucida, sans-serif;
         margin-right: 15vw;
         padding-bottom: 5vh;
-        font-size: 21px;
+        font-size: 2.7vh;
         padding-top: 22vh;
     }
 
