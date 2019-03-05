@@ -25,18 +25,18 @@ class Method extends Component{
                     <img className= 'methodlogo' src="https://lokua.org/wp-content/uploads/2018/11/lokua-logo2.png" alt=''></img>
                 </div>
                 <div className='secondpart'>
-                    <div className='methodimage'><img src="https://lokua.org/wp-content/uploads/2018/12/boys-painting-circle-text.png" alt=''></img></div>
+                    <div ><img className='methodimage' src="https://lokua.org/wp-content/uploads/2018/12/boys-painting-circle-text.png" alt=''></img></div>
                     <div className='wordsbypic'>
                     <p className='we'>We encourage</p>
                     <strong className='well'>multiple kinds of learning</strong>
                     <p className='wel'>by designing Labs that:</p>
                     <ul className='firstlist'>
-                        <li >Challenge critical thinking</li>
-                        <li >Focus on interactivity</li>
-                        <li >Engage the student with a variety of activities and subjects</li>
-                        <li >Connect subjects in a holistic way</li>
-                        <li>Are informative and educational</li>
-                        <li >Are full of<strong> FUN </strong></li>
+                        <li className='mylist'>Challenge critical thinking</li>
+                        <li className='mylist'>Focus on interactivity</li>
+                        <li className='mylist'>Engage the student with a variety of activities and subjects</li>
+                        <li className='mylist'>Connect subjects in a holistic way</li>
+                        <li className='mylist'>Are informative and educational</li>
+                        <li className='mylist'>Are full of<strong> FUN </strong></li>
                     </ul>
                     </div>
                 </div>

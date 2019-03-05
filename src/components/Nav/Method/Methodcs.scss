@@ -2,7 +2,7 @@ $myfont: Montserrat, Helvetica, Arial, Lucida, sans-serif;
 .lokuamethod{
     height: 30vh;
     width: 100vw;
-    padding: 20px;
+    // padding: ;
     margin-top: 10vh;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ $myfont: Montserrat, Helvetica, Arial, Lucida, sans-serif;
 
 .aimstofoster{
     font-family:$myfont;
-    font-size: 20px;
+    font-size: 2.5vh;
     color: #666666;
     display: flex;
     justify-content: center;
@@ -27,47 +27,51 @@ $myfont: Montserrat, Helvetica, Arial, Lucida, sans-serif;
     display: flex;
     justify-content: center;
     padding: 0.7%;
-    font-size:20px ;
+    font-size:2vh ;
     font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
     color:#002338;
 }
 .methodlogo{
-    margin-top: 4vh;
+    
+    display:inline;
+    
+
 }
 
 
 .methodimage{
-    height:70vh;
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
+    width:37%;
+    
+    
     position: absolute;
-    margin-left: 20vw;
+    
 }
 .secondpart{
     position: relative;
+    width: 100vw;
 }
 .wordsbypic{
     position: relative;
     width: 100vw;
     height: 70vh;
-
+    
+    
 }
 .we{
     margin-top: 7vh;
     display:flex;
     position: relative;
     justify-content: center;
-    margin-left: 40vw;
+    // margin-left: 40vw;
     font-size: 3vh;
     color: #666666;
-
+    
 }
 .well{
     display: flex;
     position: relative;
     justify-content: center;
-    margin-left: 40vw;
+    // margin-left: 40vw;
     font-size: 3.5vh;
     color:black;
 }
@@ -75,20 +79,23 @@ $myfont: Montserrat, Helvetica, Arial, Lucida, sans-serif;
     display: flex;
     position: relative;
     justify-content: center;
-    margin-left: 40vw;
+    // margin-left: 40vw;
     font-size: 3vh;
     color:#666666;
 }
 .firstlist{
     margin-top: 13vh;
-    margin-left: 55vw;
+    // margin-left: 55vw;
     height: 30vh;
-    width: 30vw;
+    width: 100vw;
+    
     list-style-type: dot;
     text-align: left;
-    font-size: 3.5vh;
+    font-size: 2.5vh;
     position: relative;
-    color: #666666
+    color: #666666;
+    
+    
 }
 .mylist{
     display: flex;
@@ -97,6 +104,37 @@ $myfont: Montserrat, Helvetica, Arial, Lucida, sans-serif;
     list-style-type: disc;
 }
 
+@media(max-width:800px){
+    .methodimage{
+        position: relative;
+    }
+    
+}
+        @media(min-width: 800px){
+            .methodimage{
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 10vw;
+                
+            }
+            .we{
+                justify-content: flex-end;
+                
+            }
+            .wel{
+                justify-content: flex-end;
+            }
+            .well{
+                justify-content: flex-end;
+            }
+            .mylist{
+                justify-content: flex-end
+            }
+            .wordsbypic{
+                width: 70vw;
+                text-align: left;
+            }
+        }
 .borderedbox{
     margin-top: 6vh;
     width: 70vw;
